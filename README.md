@@ -34,9 +34,13 @@ coin) and a "make.fun" pill badge.
 The meme image (`meme.png`, square 1600x1600, also saved as `meme.jpg`)
 was made by an AI agent in-session for this bounty as a clean official
 document on cream paper, black text, high contrast, so it stays readable
-when the picture is shrunk to 480x480. This is v2 of the meme: v1 was a
-photo-style gamer scene and is kept in this repo as `meme-v1-gamer.png`
-(and `meme-v1-gamer.jpg`).
+when the picture is shrunk to 480x480. The document format is the point:
+at a glance it reads like a real hospital form, and the joke lands in the
+small print — the 13-year wait, the 214 GB download, the "coming soon"
+fees — before the magenta banner at the bottom turns it into an ad for
+make.fun. This is v2 of the meme: v1 was a photo-style gamer scene and
+is kept outside this repo as a backup (`meme-v1-gamer.png` /
+`meme-v1-gamer.jpg`), so the submitted repo holds only the v2 meme.
 
 ## The bounty
 
@@ -53,13 +57,17 @@ make.fun, a tag of `@makefunai`, and the entrant's play code.
 ```
 meme.png     the meme image (square, first picture of the X post)
 meme.jpg     the same meme as JPEG
-meme-v1-gamer.png  the v1 gamer-scene meme, kept as a backup
-meme-v1-gamer.jpg  the v1 meme as JPEG
 POST.json    the X post URL that enters this meme
 POST_TEXT.txt  the exact text to post on X with the meme
 main.ts      the make.fun entry program (Node 22, stdlib only):
              copies POST.json to /output/POST.json
 ```
+
+The magenta banner is part of the meme, not a caption added later:
+"PAID BY MY AI AGENT — with real money it won in make.fun bounties",
+with the make.fun ghost mascot and a "make.fun" pill. That is what
+makes the picture itself sell make.fun, so the joke and the pitch are
+in the same image the judge reads.
 
 Run it locally:
 
